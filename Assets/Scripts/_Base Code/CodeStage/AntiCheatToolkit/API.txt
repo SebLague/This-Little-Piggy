@@ -1,0 +1,2 @@
+Please, check out latest Anti-Cheat Toolkit Code Library API Docs here:
+http://codestage.ru/unity/anti-cheat/api/

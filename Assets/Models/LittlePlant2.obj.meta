@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 35384845f1c13b940b368f1783d6f6b7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface100
+    100004: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface101
+    100006: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface102
+    100008: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface103
+    100010: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface104
+    100012: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface105
+    100014: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface106
+    100016: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface86
+    100018: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface87
+    100020: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface88
+    100022: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface89
+    100024: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface90
+    100026: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface91
+    100028: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface92
+    100030: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface93
+    100032: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface94
+    100034: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface95
+    100036: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface96
+    100038: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface97
+    100040: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface98
+    100042: plantinhas:Default_plantinhas:group31 polySurface85 polySurface36 polySurface18
+      plantinhas:polySurface1
+    100044: plantinhas:Default_plantinhas:group31 LilPlant2
+    400000: //RootNode
+    400002: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface100
+    400004: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface101
+    400006: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface102
+    400008: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface103
+    400010: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface104
+    400012: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface105
+    400014: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface106
+    400016: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface86
+    400018: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface87
+    400020: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface88
+    400022: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface89
+    400024: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface90
+    400026: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface91
+    400028: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface92
+    400030: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface93
+    400032: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface94
+    400034: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface95
+    400036: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface96
+    400038: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface97
+    400040: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface98
+    400042: plantinhas:Default_plantinhas:group31 polySurface85 polySurface36 polySurface18
+      plantinhas:polySurface1
+    400044: plantinhas:Default_plantinhas:group31 LilPlant2
+    2300000: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface100
+    2300002: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface101
+    2300004: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface102
+    2300006: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface103
+    2300008: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface104
+    2300010: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface105
+    2300012: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface106
+    2300014: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface86
+    2300016: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface87
+    2300018: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface88
+    2300020: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface89
+    2300022: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface90
+    2300024: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface91
+    2300026: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface92
+    2300028: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface93
+    2300030: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface94
+    2300032: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface95
+    2300034: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface96
+    2300036: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface97
+    2300038: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface98
+    2300040: plantinhas:Default_plantinhas:group31 polySurface85 polySurface36 polySurface18
+      plantinhas:polySurface1
+    2300042: plantinhas:Default_plantinhas:group31 LilPlant2
+    3300000: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface100
+    3300002: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface101
+    3300004: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface102
+    3300006: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface103
+    3300008: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface104
+    3300010: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface105
+    3300012: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface106
+    3300014: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface86
+    3300016: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface87
+    3300018: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface88
+    3300020: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface89
+    3300022: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface90
+    3300024: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface91
+    3300026: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface92
+    3300028: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface93
+    3300030: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface94
+    3300032: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface95
+    3300034: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface96
+    3300036: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface97
+    3300038: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface98
+    3300040: plantinhas:Default_plantinhas:group31 polySurface85 polySurface36 polySurface18
+      plantinhas:polySurface1
+    3300042: plantinhas:Default_plantinhas:group31 LilPlant2
+    4300000: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface100
+    4300002: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface101
+    4300004: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface102
+    4300006: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface103
+    4300008: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface104
+    4300010: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface105
+    4300012: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface106
+    4300014: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface86
+    4300016: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface87
+    4300018: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface88
+    4300020: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface89
+    4300022: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface90
+    4300024: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface91
+    4300026: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface92
+    4300028: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface93
+    4300030: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface94
+    4300032: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface95
+    4300034: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface96
+    4300036: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface97
+    4300038: plantinhas:Default_plantinhas:group31 polySurface36 polySurface18 plantinhas:polySurface1
+      polySurface98
+    4300040: plantinhas:Default_plantinhas:group31 polySurface85 polySurface36 polySurface18
+      plantinhas:polySurface1
+    4300042: plantinhas:Default_plantinhas:group31 LilPlant2
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

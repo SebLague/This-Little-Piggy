@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: e308e76efc7464434981102e2080f229
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: polySurface62
+    100004: polySurface63
+    100006: polySurface64
+    100008: polySurface65
+    100010: preda3:Default_preda3:group20 polySurface56
+    100012: predinhas2:Default_predinhas2:group22 polySurface58
+    100014: predinhas2:Default_predinhas2:group22 polySurface59
+    100016: predinhas2:Default_predinhas2:group22 polySurface60
+    100018: predinhas2:Default_predinhas2:group22 polySurface61
+    100020: predinhas2:Default_predinhas2:group22 polySurface62
+    100022: predinhas2:Default_predinhas2:group22 polySurface63
+    100024: predinhas2:Default_predinhas2:group22 polySurface64
+    100026: predinhas2:Default_predinhas2:group22 polySurface65
+    400000: //RootNode
+    400002: polySurface62
+    400004: polySurface63
+    400006: polySurface64
+    400008: polySurface65
+    400010: preda3:Default_preda3:group20 polySurface56
+    400012: predinhas2:Default_predinhas2:group22 polySurface58
+    400014: predinhas2:Default_predinhas2:group22 polySurface59
+    400016: predinhas2:Default_predinhas2:group22 polySurface60
+    400018: predinhas2:Default_predinhas2:group22 polySurface61
+    400020: predinhas2:Default_predinhas2:group22 polySurface62
+    400022: predinhas2:Default_predinhas2:group22 polySurface63
+    400024: predinhas2:Default_predinhas2:group22 polySurface64
+    400026: predinhas2:Default_predinhas2:group22 polySurface65
+    2300000: polySurface62
+    2300002: polySurface63
+    2300004: polySurface64
+    2300006: polySurface65
+    2300008: preda3:Default_preda3:group20 polySurface56
+    2300010: predinhas2:Default_predinhas2:group22 polySurface58
+    2300012: predinhas2:Default_predinhas2:group22 polySurface59
+    2300014: predinhas2:Default_predinhas2:group22 polySurface60
+    2300016: predinhas2:Default_predinhas2:group22 polySurface61
+    2300018: predinhas2:Default_predinhas2:group22 polySurface62
+    2300020: predinhas2:Default_predinhas2:group22 polySurface63
+    2300022: predinhas2:Default_predinhas2:group22 polySurface64
+    2300024: predinhas2:Default_predinhas2:group22 polySurface65
+    3300000: polySurface62
+    3300002: polySurface63
+    3300004: polySurface64
+    3300006: polySurface65
+    3300008: preda3:Default_preda3:group20 polySurface56
+    3300010: predinhas2:Default_predinhas2:group22 polySurface58
+    3300012: predinhas2:Default_predinhas2:group22 polySurface59
+    3300014: predinhas2:Default_predinhas2:group22 polySurface60
+    3300016: predinhas2:Default_predinhas2:group22 polySurface61
+    3300018: predinhas2:Default_predinhas2:group22 polySurface62
+    3300020: predinhas2:Default_predinhas2:group22 polySurface63
+    3300022: predinhas2:Default_predinhas2:group22 polySurface64
+    3300024: predinhas2:Default_predinhas2:group22 polySurface65
+    4300000: polySurface62
+    4300002: polySurface63
+    4300004: polySurface64
+    4300006: polySurface65
+    4300008: preda3:Default_preda3:group20 polySurface56
+    4300010: predinhas2:Default_predinhas2:group22 polySurface58
+    4300012: predinhas2:Default_predinhas2:group22 polySurface59
+    4300014: predinhas2:Default_predinhas2:group22 polySurface60
+    4300016: predinhas2:Default_predinhas2:group22 polySurface61
+    4300018: predinhas2:Default_predinhas2:group22 polySurface62
+    4300020: predinhas2:Default_predinhas2:group22 polySurface63
+    4300022: predinhas2:Default_predinhas2:group22 polySurface64
+    4300024: predinhas2:Default_predinhas2:group22 polySurface65
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 87
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

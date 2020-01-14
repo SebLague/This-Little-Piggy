@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: f1fa0e5afe8fd49639957d4b14bb3765
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Back_Left_Foot
+    100002: Back_Left_Knee
+    100004: Back_Left_Leg
+    100006: Back_Left_PV
+    100008: Back_Right_Foot
+    100010: Back_Right_Knee
+    100012: Back_Right_Leg
+    100014: Back_Right_PV
+    100016: BackHip
+    100018: COGBack
+    100020: COGFront
+    100022: Front_Left_Foot
+    100024: Front_Left_Knee
+    100026: Front_Left_Leg
+    100028: Front_Left_PV
+    100030: Front_Right_Foot
+    100032: Front_Right_Knee
+    100034: Front_Right_Leg
+    100036: Front_Right_PV
+    100038: FrontHip
+    100040: Head
+    100042: Head 1
+    100044: HeadTip
+    100046: ikHandle1
+    100048: ikHandle2
+    100050: ikHandle3
+    100052: ikHandle4
+    100054: Left_BackFoot
+    100056: Left_FrontFoot
+    100058: locator1
+    100060: locator2
+    100062: locator3
+    100064: locator4
+    100066: Main
+    100068: Neck
+    100070: Neck 1
+    100072: //RootNode
+    100074: PiggyTextured:polySurface1
+    100076: Right_BackFoot
+    100078: Right_FrontFoot
+    100080: Spine
+    100082: Spine 1
+    100084: SwayBack
+    100086: SwayFront
+    100088: Tail
+    100090: TailEnd
+    100092: TailStart
+    400000: Back_Left_Foot
+    400002: Back_Left_Knee
+    400004: Back_Left_Leg
+    400006: Back_Left_PV
+    400008: Back_Right_Foot
+    400010: Back_Right_Knee
+    400012: Back_Right_Leg
+    400014: Back_Right_PV
+    400016: BackHip
+    400018: COGBack
+    400020: COGFront
+    400022: Front_Left_Foot
+    400024: Front_Left_Knee
+    400026: Front_Left_Leg
+    400028: Front_Left_PV
+    400030: Front_Right_Foot
+    400032: Front_Right_Knee
+    400034: Front_Right_Leg
+    400036: Front_Right_PV
+    400038: FrontHip
+    400040: Head
+    400042: Head 1
+    400044: HeadTip
+    400046: ikHandle1
+    400048: ikHandle2
+    400050: ikHandle3
+    400052: ikHandle4
+    400054: Left_BackFoot
+    400056: Left_FrontFoot
+    400058: locator1
+    400060: locator2
+    400062: locator3
+    400064: locator4
+    400066: Main
+    400068: Neck
+    400070: Neck 1
+    400072: //RootNode
+    400074: PiggyTextured:polySurface1
+    400076: Right_BackFoot
+    400078: Right_FrontFoot
+    400080: Spine
+    400082: Spine 1
+    400084: SwayBack
+    400086: SwayFront
+    400088: Tail
+    400090: TailEnd
+    400092: TailStart
+    4300000: PiggyTextured:polySurface1
+    7400000: Take 001
+    7400002: Idle
+    7400004: Walk
+    9500000: //RootNode
+    13700000: PiggyTextured:polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BackHip
+        weight: 1
+      - path: BackHip/Back_Left_Leg
+        weight: 1
+      - path: BackHip/Back_Left_Leg/Back_Left_Knee
+        weight: 1
+      - path: BackHip/Back_Left_Leg/Back_Left_Knee/Back_Left_Foot
+        weight: 1
+      - path: BackHip/Back_Right_Leg
+        weight: 1
+      - path: BackHip/Back_Right_Leg/Back_Right_Knee
+        weight: 1
+      - path: BackHip/Back_Right_Leg/Back_Right_Knee/Back_Right_Foot
+        weight: 1
+      - path: BackHip/Spine
+        weight: 1
+      - path: BackHip/Spine/FrontHip
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Left_Leg
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Left_Leg/Front_Left_Knee
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Left_Leg/Front_Left_Knee/Front_Left_Foot
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Right_Leg
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Right_Leg/Front_Right_Knee
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Right_Leg/Front_Right_Knee/Front_Right_Foot
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Neck
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Neck/Head
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Neck/Head/HeadTip
+        weight: 1
+      - path: BackHip/TailStart
+        weight: 1
+      - path: BackHip/TailStart/TailEnd
+        weight: 1
+      - path: locator1
+        weight: 1
+      - path: locator2
+        weight: 1
+      - path: locator3
+        weight: 1
+      - path: locator4
+        weight: 1
+      - path: Main
+        weight: 1
+      - path: Main/Back_Left_PV
+        weight: 1
+      - path: Main/Back_Right_PV
+        weight: 1
+      - path: Main/COGBack
+        weight: 1
+      - path: Main/COGBack/Spine 1
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront/Neck 1
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront/Neck 1/Head 1
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront/SwayFront
+        weight: 1
+      - path: Main/COGBack/SwayBack
+        weight: 1
+      - path: Main/COGBack/Tail
+        weight: 1
+      - path: Main/Front_Left_PV
+        weight: 1
+      - path: Main/Front_Right_PV
+        weight: 1
+      - path: Main/Left_BackFoot
+        weight: 1
+      - path: Main/Left_BackFoot/ikHandle1
+        weight: 1
+      - path: Main/Left_FrontFoot
+        weight: 1
+      - path: Main/Left_FrontFoot/ikHandle3
+        weight: 1
+      - path: Main/Right_BackFoot
+        weight: 1
+      - path: Main/Right_BackFoot/ikHandle2
+        weight: 1
+      - path: Main/Right_FrontFoot
+        weight: 1
+      - path: Main/Right_FrontFoot/ikHandle4
+        weight: 1
+      - path: PiggyTextured:polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BackHip
+        weight: 1
+      - path: BackHip/Back_Left_Leg
+        weight: 1
+      - path: BackHip/Back_Left_Leg/Back_Left_Knee
+        weight: 1
+      - path: BackHip/Back_Left_Leg/Back_Left_Knee/Back_Left_Foot
+        weight: 1
+      - path: BackHip/Back_Right_Leg
+        weight: 1
+      - path: BackHip/Back_Right_Leg/Back_Right_Knee
+        weight: 1
+      - path: BackHip/Back_Right_Leg/Back_Right_Knee/Back_Right_Foot
+        weight: 1
+      - path: BackHip/Spine
+        weight: 1
+      - path: BackHip/Spine/FrontHip
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Left_Leg
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Left_Leg/Front_Left_Knee
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Left_Leg/Front_Left_Knee/Front_Left_Foot
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Right_Leg
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Right_Leg/Front_Right_Knee
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Right_Leg/Front_Right_Knee/Front_Right_Foot
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Neck
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Neck/Head
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Neck/Head/HeadTip
+        weight: 1
+      - path: BackHip/TailStart
+        weight: 1
+      - path: BackHip/TailStart/TailEnd
+        weight: 1
+      - path: locator1
+        weight: 1
+      - path: locator2
+        weight: 1
+      - path: locator3
+        weight: 1
+      - path: locator4
+        weight: 1
+      - path: Main
+        weight: 1
+      - path: Main/Back_Left_PV
+        weight: 1
+      - path: Main/Back_Right_PV
+        weight: 1
+      - path: Main/COGBack
+        weight: 1
+      - path: Main/COGBack/Spine 1
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront/Neck 1
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront/Neck 1/Head 1
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront/SwayFront
+        weight: 1
+      - path: Main/COGBack/SwayBack
+        weight: 1
+      - path: Main/COGBack/Tail
+        weight: 1
+      - path: Main/Front_Left_PV
+        weight: 1
+      - path: Main/Front_Right_PV
+        weight: 1
+      - path: Main/Left_BackFoot
+        weight: 1
+      - path: Main/Left_BackFoot/ikHandle1
+        weight: 1
+      - path: Main/Left_FrontFoot
+        weight: 1
+      - path: Main/Left_FrontFoot/ikHandle3
+        weight: 1
+      - path: Main/Right_BackFoot
+        weight: 1
+      - path: Main/Right_BackFoot/ikHandle2
+        weight: 1
+      - path: Main/Right_FrontFoot
+        weight: 1
+      - path: Main/Right_FrontFoot/ikHandle4
+        weight: 1
+      - path: PiggyTextured:polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 50
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BackHip
+        weight: 1
+      - path: BackHip/Back_Left_Leg
+        weight: 1
+      - path: BackHip/Back_Left_Leg/Back_Left_Knee
+        weight: 1
+      - path: BackHip/Back_Left_Leg/Back_Left_Knee/Back_Left_Foot
+        weight: 1
+      - path: BackHip/Back_Right_Leg
+        weight: 1
+      - path: BackHip/Back_Right_Leg/Back_Right_Knee
+        weight: 1
+      - path: BackHip/Back_Right_Leg/Back_Right_Knee/Back_Right_Foot
+        weight: 1
+      - path: BackHip/Spine
+        weight: 1
+      - path: BackHip/Spine/FrontHip
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Left_Leg
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Left_Leg/Front_Left_Knee
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Left_Leg/Front_Left_Knee/Front_Left_Foot
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Right_Leg
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Right_Leg/Front_Right_Knee
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Front_Right_Leg/Front_Right_Knee/Front_Right_Foot
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Neck
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Neck/Head
+        weight: 1
+      - path: BackHip/Spine/FrontHip/Neck/Head/HeadTip
+        weight: 1
+      - path: BackHip/TailStart
+        weight: 1
+      - path: BackHip/TailStart/TailEnd
+        weight: 1
+      - path: locator1
+        weight: 1
+      - path: locator2
+        weight: 1
+      - path: locator3
+        weight: 1
+      - path: locator4
+        weight: 1
+      - path: Main
+        weight: 1
+      - path: Main/Back_Left_PV
+        weight: 1
+      - path: Main/Back_Right_PV
+        weight: 1
+      - path: Main/COGBack
+        weight: 1
+      - path: Main/COGBack/Spine 1
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront/Neck 1
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront/Neck 1/Head 1
+        weight: 1
+      - path: Main/COGBack/Spine 1/COGFront/SwayFront
+        weight: 1
+      - path: Main/COGBack/SwayBack
+        weight: 1
+      - path: Main/COGBack/Tail
+        weight: 1
+      - path: Main/Front_Left_PV
+        weight: 1
+      - path: Main/Front_Right_PV
+        weight: 1
+      - path: Main/Left_BackFoot
+        weight: 1
+      - path: Main/Left_BackFoot/ikHandle1
+        weight: 1
+      - path: Main/Left_FrontFoot
+        weight: 1
+      - path: Main/Left_FrontFoot/ikHandle3
+        weight: 1
+      - path: Main/Right_BackFoot
+        weight: 1
+      - path: Main/Right_BackFoot/ikHandle2
+        weight: 1
+      - path: Main/Right_FrontFoot
+        weight: 1
+      - path: Main/Right_FrontFoot/ikHandle4
+        weight: 1
+      - path: PiggyTextured:polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,257 @@
+﻿1.3.2.1
+- optimized inspector exposition for supported obscured types
+- fixed array elements names while exposing ObscuredString[] in inspector
+- fixed ObscuredString truncation while being shown at inspector in some cases (thanks Stefan Laubenberger)
+
+1.3.2
+- ObscuredVector2, ObscuredVector3 and ObscuredQuaternion accuracy increased (consistent on all platforms now)
+- added epsilons for ObscuredFloat, Obscured vectors and ObscuredQuaternion in ObscuredCheatDetector
+- fixed cheating detection false positives for Obscured vectors and ObscuredQuaternion (thanks Capital j Media)
+- fixed ObscuredInt returned 0 in case value matched crypto key regression
+- minor optimizations and refactorings
+
+1.3.1
+- ObscuredBool inspector support added (requires Unity 4.5)
+- new public API for all basic Obscured types: ApplyNewCryptoKey(), see docs for more details
+- Significant changes in SpeedHackDetector:
+  * Cool Down system introduced. Read more in pdf and "coolDown" field API docs (thanks Cliff Cawley)
+  * detection checks period is not affected by speed hack anymore (now it uses system date timer)
+  * fixed speed hack wasn't detected in some cases
+  * fixed false positives in some cases
+  * fixed extra calculations on first detection check in the SpeedHackDetector
+  * fixed incorrect datetime change detection
+  * fixed continuous detects after first detect even if speed hack was removed (thanks Cliff Cawley)
+  * speed hack detection log message now appears in debug builds only
+  * application pause handled correctly now
+- all basic Obscured types are serializable now (only binary serialization supported)
+- ObscuredBool cheating detection is now supported in the Flash Player.
+- fixed ObscuredInt default value issues
+- fixed null reference error while using exposed ObscuredFloat fields to the inspector without default value
+- fixed incorrectly decrypted ObscuredString values in inspector when used without default values
+- fixed cheating detection false positives for Obscured variables while being exposed to the editor
+- fixed possible cheating detection false positives for ObscuredVector2, ObscuredVector3 and ObscuredQuaternion
+- fixed GetEncrypted() after SetNewCryptoKey() in ObscuredString didn't counted new crypto key
+- removed redundant [InitializeOnLoad] attribute from ActPostprocessor
+- minor refactorings in all Obscured types
+- fixes and additions in the docs
+
+1.3.0
+- ObscuredString fields are now editable from inspector
+- ObscuredInt and ObscuredFloat fields are now editable from inspector (Unity 4.5 or higher required)
+  * in case int->ObscuredInt \ float->ObscuredFloat replacement, old values set in inspector will be reset to defaults!
+  * experimental inspector support for the obscured structs instances, report any bugs please
+- ObscuredCheatingDetector implemented
+  * central detector for all Obscured types (except ObscuredPrefs) cheating detection
+  * replacement for legacy onCheatingDetected Action callback
+- Injection Detector user-defined Whitelist Editor implemented
+  * allows gather assembly data both from files and manually (for assemblies made in realtime)
+- ObscuredPrefs.ForceDeviceID(string) method introduced
+  * useful if you have server-side authorization, especially on iOS (we have no reliable way to get device ID there)
+- Injection Detector data file is restored now if it was accidentally removed
+- public API StopMonitoring was renamed to the StopDetection for all detectors
+- most of Vector3 operators are now supported by ObscuredVector3
+- fixed possible false positives in Speed Hack Detector caused by system time / date change
+- fixed exception in ActPostprocessor while trying to write into the read-only file (thanks Sebastiano Mandalà)
+- fixed possible false positives for ObscuredVector3, ObscuredVector2, ObscuredQuaternion cheating detection.
+- added ability to force Injection Detector data collection for unsupported platforms for debugging
+- Injection Detector will be re-enabled after switching from unsupported target if it was enabled previously
+- significant refactorings in the detectors code
+- service data cleanup code simplified
+- improved removing of obsolete editor prefs used by ACT
+- refactorings in the Editor scripts and file structure (remove prev version before updating to avoid collisions!)
+- fixed possible name conflicts: MenuItem, Action
+- minor fixes and optimizations
+- minor fixes in documentation
+
+1.2.9
+- cheating detection added to the ObscuredQuaternion, ObscuredVector3, ObscuredVector2, ObscuredString
+- fixed rare critical bug in ++ and -- operators of some obscured types leading to false detections (huge thanks redux!)
+- fixed ObscuredPrefs.HasKey() and ObscuredPrefs.DeleteKey() were not count regular PlayerPrefs keys (thanks Sashko)
+- fixed possible access issue while reading from AllowedAssemblies.bytes file in editor (thanks Sabastiano)
+- fixed possible fndid file corruption leading to the false positives in Injection Detector (thanks Sabastiano)
+- access to the x, y, z fields was added to the ObscuredVector3 (access by index was implemented as well)
+- access to the x and y fields was added to the ObscuredVector2 (access by index was implemented as well)
+- DetectorsUsageExample script was moved from Anti-Cheat Toolkit Detectors prefab to the separate GameObject
+- minor fixes in the API docs
+
+1.2.8
+- New obscured types with cheating detection implemented
+  * ObscuredSByte
+  * ObscuredChar
+  * ObscuredDecimal (Flash Player is not supported, use ObscuredFloat instead)
+  * ObscuredULong
+- cheating detection added to these existing obscured types
+  * ObscuredUInt
+  * ObscuredLong
+  * ObscuredDouble
+  * ObscuredBool (except Flash Player: bug in exported pool manager code doesn't allow to use nullables)
+- minor public API changes for few obscured types
+- fixed SpeedHackDetector error while playing test scene in editor with Flash Player target
+- fixed possible false positives of SpeedHackDetector in Flash Player
+- fixed Flash Player implementation of the ObscuredUShort.GetHashCode()
+- another minor improvements in flash implementation of SpeedHackDetector
+- other minor fixes and optimizations
+
+1.2.7
+- InjectionDetector introduced
+  * allows to detect if someone injects any managed dll into your app
+- ObscuredShort and ObscuredUShort with cheating detection implemented
+- IntegrityChecker removed (see my considerations here: http://forum.unity3d.com/threads/196578-Anti-Cheat-Toolkit-RELEASED/page7?p=1577548&viewfull=1#post1577548)
+- significant changes and fixes in API documentation (should be prettier and more detailed now)
+- DeviceLockLevel enum moved into the ObscuredPrefs class, thus now it should be reached as ObscuredPrefs.DeviceLockLevel
+- SpeedHackDetector's StartMonitoring methods were renamed to StartDetection ones
+- minor improvements in flash implementation of SpeedHackDetector
+- ObscuredUint was renamed to ObscuredUInt
+- minor files structure changes, please, make clean update (completely remove previous version before updating)
+- minor fixes and optimizations
+
+1.2.6u2
+- fixed possible false positives of cheating detection in Obscured types
+- minor API docs fixes
+
+1.2.6u1
+- extra traces in ActionScript code were commented out
+
+1.2.6
+- flash build support for SpeedHackDetector implemented
+- ObscuredVector2 and ObscuredQuaternion implemented
+- cheating detection added to the ObscuredByte
+- SpeedHackDetector now awaits Action delegate instead of MonoBehaviour and method name. Please, read API docs for details
+- ObscuredPrefs.readForeignSaves field introduced
+  * allows to read saves locked to other device and onPossibleForeignSavesDetected action still will be fired
+- deprecated PlayerPrefsObscured was removed completely, use ObscuredPrefs instead
+- ObscuredFloat slightly optimized
+- ObscuredDouble slightly optimized
+- all default arguments were replaced by methods overloading for additional compatibility with UnityScript (again)
+- minor fixes in API docs
+
+1.2.5u1
+- SpeedHackDetector.Instance is now public and may be used to set interval, autoDispose, etc. from code.
+
+1.2.5
+- SpeedHackDetector introduced! Allows you to react on Cheat Engine's speed hack
+  * some other speed hack tools may be detected too
+  * use GameObject->Create Other->Code Stage->Speed Hack Detector menu item to add detector in scene
+  * use any public SpeedHackDetector API to automatically add it to scene
+- added cheating detection to the ObscuredInt and ObscuredFloat (use Obscured*.onCheatingDetected)
+- migration from PlayerPrefs to ObscuredPrefs became super easy: just replace PlayerPrefs with ObscuredPrefs
+  and read \ write any data as usual, no more manual PlayerPrefs to ObscuredPrefs conversion!
+  * all data saved with regular PlayerPrefs will be automatically encrypted with ObscuredPrefs on read and
+    original PlayerPrefs data will be deleted
+  * Set ObscuredPrefs.preservePlayerPrefs to true to prevent original PlayerPrefs data deletion
+- migration from legacy PlayerPrefsObscured to ObscuredPrefs became smoother: data, written with PlayerPrefsObscured
+  now converts to the new format while readed with ObscuredPrefs (previously - old legacy keys were left untouched 
+  after migration).
+- ObscuredPrefs.unobscuredMode implemented
+  * allows to write all data unobscured, for testing purposes
+  * thus it works in Editor only
+  * breaks PlayerPrefs to ObscuredPrefs migration (reminder: in Editor)
+- ObscuredVector3 and ObscuredBool implemented!
+- data saved in TestScene now cleans up on application quit
+- ObscuredPrefs overfill in Web Player no longer breaks entire game process (and logs error in such case)
+- added selftests and performance tests code to the example scene (disabled by default) for debugging and 
+  making wise choices ;)
+- ObscuredString default crypto key was changed. Set new key to 4444 before using SetEncrypted() to set data got with
+  GetEncrypted in previous versions.
+- fixed compilation error of WP8 build
+- fixed initialization of some Obscured types
+- fixed ObscuredString equality operator implementation
+- minor fixes
+- minor docs fixes
+
+1.2.0
+- project updated to Unity 4.2.2
+- new ObscuredPrefs introduced instead of old PlayerPrefsObscured
+  * PlayerPrefsObscured is no more supported, please, make sure to save all your new data using ObscuredPrefs
+  * all data saved with ObscuredPrefs will not be accessible using deprecated PlayerPrefsObscured!
+  * all data saved with deprecated PlayerPrefsObscured is accessible with ObscuredPrefs automatically as fallback
+    (will be removed in future)
+  * new flexible lock data to device feature introduced, read more in api docs and readme
+  * now saved data may be recovered in emergency cases (like device ID change after updating from iOS 6 to iOS 7)
+  * attempt to prevent device id change after iOS6 to iOS7 update (works in some cases only)
+  * key is now encrypted with common encryptionKey (previously default key for ObscuredString was used)
+  * accessing data saved with regular PlayerPrefs now generates warning with additional information
+  * saves alteration can be detected now, use ObscuredPrefs.onAlterationDetected (see ObscuredPrefsTest)
+  * foreign saves usage detection added, use ObscuredPrefs.onPossibleForeignSavesDetected (see ObscuredPrefsTest)
+  * added example of storing encryption key outside of the IL bytecode (increasing its security level)
+    (see ObscuredPrefsTest)
+  * added support of these types: long, bool, byte[], Vector3
+- ObscuredByte and ObscuredLong added
+- equality operations (==, !=, .Equals()) are now supported in all simple Obscured types
+- all default arguments were replaced by methods overloading for additional compatibility with UnityScript
+- other minor fixes
+- few fixes in docs
+
+1.1.0u1
+- fixed ObscuredDouble not worked correctly
+- fixed link to ObscuredDouble missed in object Tester in the test scene
+
+1.1.0
+- no more dlls, plugin now comes with full source code included!
+- Yey, Flash Player exporter support is back! :D IntegrityChecker, ObscuredDouble and 
+  PlayerPrefsObscured.lockToDevice are not supported there though.
+- added increment and decrement operators support to the numeric obscured types (thanks Yuri Saveliev)
+- added ObscuredDouble! Not supported in FlashPlayer (use ObscuredFloat instead)! (thanks Andriy Pidvirnyy)
+- added correct analogues of toString() methods to some of the Obscured types
+- added PlayerPrefsObscured.ForceLockToDeviceInit() method to call device ID obtanation (noticably slow at first
+  call) process at desirable time (at splash screen time for example)
+- added initial support for Windows Store (Metro) Apps (needs testing)
+- added initial support for Windows Phone 8 (needs testing, thanks friuns3)
+
+- PlayerPrefsObscured.lockToDevice field is now property, so please use PlayerPrefsObscured.LockToDevice instead.
+  Sorry for inconvenience.
+- removed unsafe code in ObscuredFloat
+- fixed possible placement in memory not obscured float while using ObscuredFloat, oops :P
+- fixed possible data loss when using values equal to the crypto keys
+- attempt to fix "get_deviceUniqueIdentifier can only be called from the main thread" error (thanks ecc83)
+- fixed issue with different line endings on different platforms in IntegrityChecker causing it to think
+  assemblies are not valid
+- fixed incorrect line breaks in the xml docs
+- assemblies signing now can't be enabled on known unsupported platforms
+- assemblies signing will be disabled after switching to the known unsupported platform
+- assemblies signing will be disabled if Stripping Level in Player Settings is not set to "Disabled"
+- changed PlayerPrefsObscured default encryption key. Use SetNewCryptoKey(e806f69e7aea3ee30fe27a6abfae967f) to
+  read any data saved in previous ACT version with default key.
+- docs were fixed a bit
+- removed obsolete methods in PlayerPrefsObscured
+- minor fixes
+
+
+1.0.1.2
+- fixed .meta files handling
+- moved Anti-Cheat Toolkit/Options menu item to the Window/Anti-Cheat Toolkit/Options
+- moved plugin into CodeStage directory (to compact placing of any future plugins I'll release)
+- reduced ObscuredInt default key length
+- attempt to fix async assemblies reloading issue
+
+
+1.0.1.1
+- Added assemblies signing process duration estimation
+- Fixed issues with Anti-Cheat Toolkit .dll import in Unity 4.x
+
+
+1.0.1.0
+- Added Assemblies signing functionality * EXPERIMENTAL *
+- Fixed web player detection, now ObscuredFloat can be used in static conditions (thanks Andriy Pidvirnyy)
+
+
+1.0.0.9
+- Fixed data loss in PlayerPrefsObscured (use Get*Deprecated to read data saved with ACT 1.0.0.8)
+
+
+1.0.0.8
+- PlayerPrefsObscured now able to lock saved data to the current device. See PlayerPrefsObscured.lockToDevice
+  field description in API docs.
+- Improved PlayerPrefsObscured stability and obscuration strength (use Get*Deprecated() methods to load data,
+  saved with ACT 1.0.0.6 or earlier)
+- PlayerPrefsObscured now has own encryption key. Use PlayerPrefsObscured.SetNewCryptoKey() to change it from
+  default value.
+- Created home page for ACT: http://blog.codestage.ru/act/
+
+
+1.0.0.7
+- Fixed error in ObscuredString (now it works in WebPlayer without errors).
+- Fixed error in ObscuredFloat (now it works in WebPlayer without errors).
+- ObscuredFloat is memory wiser now.
+- ObscuredFloat.SetNewCryptoKey() accepts int now (was long).
+- Added changelog :)
